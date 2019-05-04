@@ -1,5 +1,5 @@
-var { createStore } = require("../src");
-var counter = require("./reducers");
+const { createStore } = require("../src");
+const counter = require("./reducers");
 const store = createStore(counter);
 
 const myConsole = () => {
