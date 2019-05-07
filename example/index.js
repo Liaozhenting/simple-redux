@@ -8,7 +8,7 @@ const myConsole = () => {
 store.subscribe(myConsole);
 
 store.dispatch({ type: "INCREMENT" });
-store.dispatch({ type: "INCREMENT" });
+store.dispatch({ type: "BYE" });
 store.dispatch({ type: "DECREMENT" });
 
 

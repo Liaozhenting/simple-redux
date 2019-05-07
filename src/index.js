@@ -1,3 +1,4 @@
 module.exports = {
-  createStore: require('./createStore')
+  createStore: require('./createStore'),
+  combineReducers: require('./combineReducers')
 }
